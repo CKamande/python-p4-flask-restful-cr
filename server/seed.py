@@ -2,8 +2,8 @@
 
 from faker import Faker
 
-from app import app
-from models import db, Newsletter
+from .app import app
+from .models import db, Newsletter
 
 with app.app_context():
     
